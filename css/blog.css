@@ -1,0 +1,600 @@
+.blog {
+    background-color: rgb(255, 255, 255);
+}
+
+.blog-wrapper {
+    padding-top: 45px;
+}
+
+@media (min-width: 1160px) {
+    .blog-wrapper {
+        padding-top: 90px;
+
+    }
+}
+
+.blog-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 1160px) {
+    .blog-column {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+}
+
+
+.blog-title {
+    width: 100%;
+    
+}
+
+@media (min-width: 1160px) {
+    .blog-title {
+        width: 560px;
+        height: 580px;
+    }
+}
+
+
+.blog-information {
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-width {
+    width: 100%;
+}
+
+@media (min-width: 1160px) {
+    .information-width {
+        width: 388px;
+    }
+}
+
+
+.blog-ttle-width {
+    width: 100%;
+}
+
+@media (min-width: 1160px) {
+    .blog-ttle-width {
+        width: 459px;
+    }
+}
+
+.blog-post {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-post {
+        width: 363px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;    
+    }
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background-image: url(../img/card/photo_GIRL.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-img {
+        width: 560px;
+        height: 560px;
+    }
+}
+
+.blog-title h3 {
+    font-size: 36px;
+    font-family: "Leckerli One";
+    color: rgb(135, 153, 163);
+    line-height: 1.2;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-title h3 {
+        text-align: left;
+    }
+}
+
+
+.blog-title h4 {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Montserrat";
+    color: rgb(37, 37, 37);
+    line-height: 1.238;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-title h4 {
+        font-size: 42px;
+        text-align: left;
+        padding-bottom: 40px;
+    }
+}
+
+
+
+.mirum {
+    font-size: 20px;
+    font-family: "Cambay";
+    color: rgb(99, 99, 99);
+    line-height: 1.417;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+@media (min-width: 1160px) {
+    .mirum  {
+        font-size: 24px;
+        text-align: left;
+        padding-bottom: 37px;
+    }
+}
+
+.useful-width {
+    display: inline-block;
+    width: 100%;
+}
+
+.blog-information {
+    background-color: #007df8;
+    box-shadow: 0px 30px 160px 0px rgba(0, 126, 250, 0.3);
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width: 1160px) {
+    .blog-information  {
+        width: 560px;
+        height: 260px;
+
+    }
+}
+
+.blog-information h5 {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    line-height: 2.625;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+
+
+@media (min-width: 1160px) {
+    .blog-information h5  {
+        padding-top: 24px;
+        padding-bottom: 10px;
+
+    }
+}
+
+.blog-information p {
+    font-size: 20px;
+    font-family: "Coustard";
+    color: rgb(255, 255, 255);
+    line-height: 1.154;
+    text-align: center;
+    padding-bottom: 15px;
+    word-break: break-all;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-information p {
+        font-size: 26px;
+        padding-bottom: 26px;
+
+    }
+}
+
+
+.blog-information span {
+    display: block;
+    font-size: 15px;
+    font-family: "Cambay";
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+    line-height: 1.444;
+    text-align: center;
+    padding-bottom: 27px;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-information span  {
+        padding-bottom: 20px;
+        font-size: 18px;
+
+    }
+}
+
+
+.blog-post h3 {
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Montserrat";
+    color: rgb(135, 153, 163);
+    line-height: 2.1;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    text-align: center;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-post h3   {
+        padding-top: 70px;
+        padding-bottom: 30px;
+        text-align: left;
+    }
+}
+
+.blog-post h4 {
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.313;
+    padding-bottom: 23px;
+    text-align: center;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-post h4   {
+        font-size: 32px;
+        text-align-last: left;
+    }
+}
+
+.blog-post-investigation {
+    font-size: 18px;
+    font-family: "Cambay";
+    color: rgb(255, 255, 255);
+    line-height: 1.556;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+
+}
+
+@media (min-width: 1160px) {
+    .blog-post-investigation {
+        padding-bottom: 40px;
+        text-align-last: left;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.btn-blog {
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    height: 40px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2.571;
+    text-align: center;
+    
+
+}
+
+@media (min-width: 1160px) {
+    .btn-blog    {
+        width: 160px;
+        height: 50px;
+        margin-bottom: 83px;
+    }
+}
+
+
+.btn-blog:hover {
+    background-color: #fefb30;
+    box-shadow: 0px 10px 30px 0px rgba(254, 251, 48, 0.5);
+    color: #252525;
+}
+
+.blog-switch {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 1160px) {
+    .blog-switch    {
+        padding-bottom: 0;
+    }
+}
+
+.blog-switch a {
+    text-decoration: none;
+
+}
+
+.blog-svg {
+    opacity: 0.2;
+    margin-right: 10px;
+
+}
+
+.blog-link:hover path {
+    fill: #8799a3;
+    ;
+}
+
+.blog-svg:last-child {
+    margin-right: 0;
+}
+
+.blog-svg:hover {
+    opacity: 100;
+
+}
+
+.content-width {
+    width: 185px;
+}
+
+.block-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.standart-wrapper {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (min-width: 1160px) {
+    .standart-wrapper   {
+        margin-top: 40px;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+.standart-post {
+    width: 290px;
+    height: 290px;
+    background-image: url(../img/card/photo_Hand.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1160px) {
+    .standart-post  {
+        width: 260px;
+        height: 260px;
+        margin-bottom: 0;
+    }
+}
+
+.standart-post h3 {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(187, 199, 205);
+    font-weight: bold;
+    line-height: 2.625;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+.standart-post h4 {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Montserrat";
+    color: rgb(37, 37, 37);
+    line-height: 1.417;
+
+
+}
+
+.standart-video {
+    width: 290px;
+    height: 290px;
+    background-image: url(../img/card/screen-mountains.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+@media (min-width: 1160px) {
+    .standart-video  {
+        width: 260px;
+        height: 260px;
+        margin-bottom: 0;
+    }
+}
+
+.standart-video:hover:after {
+    content: " ";
+    position: absolute;
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.4);
+
+}
+
+.standart-video h3 {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 2.625;
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 12px;
+
+}
+
+.standart-video h4 {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.417;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.standart-icon-play {
+    text-align: center;
+}
+
+.standart-format {
+    width: 290px;
+    height: 290px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 30px 160px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+@media (min-width: 1160px) {
+    .standart-format {
+        width: 360px;
+        height: 260px;
+        margin-bottom: 0;
+    }
+}
+
+
+.content-format-width {
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (min-width: 1160px) {
+    .content-format-width  {
+        width: 286px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+.standart-format-title {
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 800;
+    color: rgb(187, 199, 205);
+    line-height: 2.625;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+}
+
+.standart-preview {
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: rgb(37, 37, 37);
+    line-height: 1.417;
+    padding-bottom: 17px;
+
+}
+
+.standart-text-width {
+    width: 245px;
+}
+
+.standart-text {
+    font-size: 18px;
+    font-family: "Cambay";
+    color: rgb(99, 99, 99);
+    line-height: 1.556;
+
+}
+
+.standart-viev {
+    width: 290px;
+    height: 290px;
+    background-color: #e91d62;
+    box-shadow: 0px 30px 160px 0px rgba(233, 29, 98, 0.3);
+
+}
+
+@media (min-width: 1160px) {
+    .standart-viev  {
+        width: 160px;
+        height: 260px;
+      
+    }
+}
+
+.standart-viev-width {
+    width: 62px;
+}
+
+.standart-viev-text {
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 117px;
+}
+
+@media (min-width: 1160px) {
+    .standart-viev-text  {
+        font-size: 14px;
+      
+    }
+}

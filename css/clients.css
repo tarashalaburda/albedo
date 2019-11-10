@@ -1,0 +1,246 @@
+.clients {
+    background-color: #252525;
+    
+}
+
+@media (min-width: 1160px) {
+    .clients  {
+    background-image: url(../img/bg/bg-photo-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+    }
+}
+
+
+.clients-wrapper-text {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+@media (min-width: 1160px) {
+    .clients-wrapper-text {
+        width: 765px;
+
+    }
+}
+
+
+.clients-title {
+    padding-top: 30px;
+    padding-bottom: 39px;
+    font-size: 45px;
+    font-weight: 400;
+    font-family: "Leckerli One";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+@media (min-width: 1160px) {
+    .clients-title  {
+        padding-top: 212px;
+        font-size: 36px;
+
+    }
+}
+
+.clients-say {
+    padding-bottom: 35px;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.238;
+    text-align: center;
+    
+      
+}
+
+@media (min-width: 1160px) {
+    .clients-say {
+        padding-bottom: 89px;
+        font-size: 42px;
+
+    }
+}
+
+.clients-investigationes {
+    padding-bottom: 35px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Coustard";
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+    text-align: center;
+            
+}
+
+@media (min-width: 1160px) {
+    .clients-investigationes {
+        font-size: 24px;
+    }
+}
+
+.clients-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+@media (min-width: 1160px) {
+    .clients-profile {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        padding-bottom: 90px;
+    }
+    .clients-profile img {
+        margin-right: 21px;
+    }
+}
+
+
+
+.clients-name {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 0);
+    line-height: 1.556;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+          
+}
+
+@media (min-width: 1160px) {
+    .clients-name  {
+        text-align: left;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.clients-position {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Cambay";
+    color: rgba(255, 255, 255, 0.302);
+    line-height: 1.625;
+    text-align: center;
+
+}
+
+@media (min-width: 1160px) {
+    .clients-position  {
+        text-align: left;
+    }
+}
+
+.arrow-left {
+    position: absolute;
+    bottom: 910px;
+
+}
+
+@media (min-width: 1160px) {
+    .arrow-left {
+        bottom: 610px;
+    }
+}
+
+.svg-arrow:hover {
+    fill: #8799a3;
+}
+
+.arrow-right {
+    display: flex;
+    align-items: center;
+    left: 283px;
+    position: absolute;
+    bottom: 910px;
+    right: 0;
+    text-decoration: none;
+}
+
+@media (min-width: 1160px) {
+    .arrow-right  {
+        bottom: 610px;
+        left:  1138px;
+
+    }
+}
+
+.arrow-link {
+    text-decoration: none;
+}
+
+.arrow-span {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    padding-right: 15px;
+    display: inline-block;
+    width: 100px;
+    font-size: 14px;
+    font-family: "Cambay";
+    color: rgb(135, 153, 163);
+    line-height: 1.714;
+    text-align: right;
+    display: none;
+      
+} 
+
+
+
+@media (min-width: 1160px) {
+    .arrow-text:hover .arrow-span {
+        display: block;
+    }
+    
+    .arrow-text {
+        position: relative;
+    }
+}
+
+.clients-logo {
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1160px) {
+    .clients-logo  {
+        flex-direction: row;
+        padding-bottom: 222px;
+    }
+}
+
+
+.clients-logo-img {
+    color: white;
+    padding-top: 40px;
+     
+}
+
+@media (min-width: 1160px) {
+    .clients-logo-img   {
+        opacity: 0.302;
+        padding-top: 0;
+    }
+}
+
+.clients-logo-img:hover {
+    opacity: 100;
+}
+
+
+
+
