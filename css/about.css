@@ -7,7 +7,7 @@
     .about-me {
         background-image: url(../img/bg/bg.png);
         background-repeat: no-repeat;
-        background-position: center bottom 260px;
+        background-position: center bottom 210px;
     }
 }
 
@@ -80,7 +80,7 @@
 }
 
 @media (min-width: 1160px) {
-    .qinvestigation-text {
+    .investigation-text {
         font-size: 42px;
     }
 }
@@ -264,8 +264,8 @@
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        padding-top: 160px;
-        padding-bottom: 134px;
+        padding-top: 133px;
+        padding-bottom: 110px;
     }
 }
 

@@ -10,7 +10,15 @@
 .contacts-bg {
     background-image: url(../img/bg/bg-footer-bottom.png);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom 27px center;
+}
+
+@media (min-width: 1160px) {
+    .contacts-bg {
+        background-image: url(../img/bg/bg-footer-bottom.png);
+        background-repeat: no-repeat;
+        background-position: bottom 0 center;
+    }
 }
 
 
@@ -21,7 +29,7 @@
 
 @media (min-width: 1160px) {
     .contacts-wrapper {
-        padding-top: 195px;
+        padding-top: 130px;
 
     }
 }
@@ -396,7 +404,7 @@ input[type=submit]:hover {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
-        padding-top: 268px;
+        padding-top: 241px;
         padding-bottom: 60px;
        
     }
